@@ -6,10 +6,14 @@
     <title></title>
 </head>
 <body>
-<h1>register</h1>
-<form method="post" enctype="multipart/form-data" >
-{{uf.as_p}}
-<input type="submit" value="ok"/>
+<h1>Hello</h1>
+<form action="/Server/process"method="post" enctype="multipart/form-data" >
+{% csrf_token %}
+<input id="File1" runat="server" name="UpLoadFile" type="file" /> 
+<input type="submit" name="Button1" value="Button" id="Button1" />
 </form>
+<div>
+{{ plate_number }}
+{{ create_time }}
 </body>
 </html>

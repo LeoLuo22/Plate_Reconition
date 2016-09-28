@@ -21,3 +21,7 @@
 就是在字符串前加b,转换成bytes类型。抱着试一试的心态真的成功了。后来又遇到一下
 关于json的问题，不过这些都是关于str和bytes转换的简单问题。很好解决。
 
+##*2016/9/27
+    nothing
+##*2016/9/28
+    1.rest:REpresentational State Transfer
